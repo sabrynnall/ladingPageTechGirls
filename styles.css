@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img {
+    width: 20%;
+}
+
+nav {
+    width: 40%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.item-menu {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.chamada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    color: #FFF;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, transparent 0%, #000 100%), url('assets/mulheres-na-TI.jpg');
+}
+
+.chamada div {
+    margin: 15% 0 15% 0;
+}
+
+.chamada h6 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.chamada h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 73px;
+    margin: 5% 0 5% 0;
+}
