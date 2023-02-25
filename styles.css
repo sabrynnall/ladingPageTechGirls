@@ -147,7 +147,7 @@ nav ul {
     width: 80%;
     font-weight: lighter;
     text-align: center;
-    padding: 10% 0 10% 0;
+    padding: 10% 0 8% 0;
 }
 
 .imagem-sobre {
@@ -157,8 +157,9 @@ nav ul {
     padding-bottom: 5%;
 }
 
-.imagem-sobre img {
+.imagem-sobre iframe {
     width: 700px;
+    height: 400px;
 }
 
 .imagem-sobre p {
