@@ -29,7 +29,7 @@
 
 ## Deploy 
 
-Link do projeto: [Clica aqui](techgirls.netlify.app)
+Link do projeto: [Clica aqui](https://techgirls.netlify.app/)
 
 <br>
 
