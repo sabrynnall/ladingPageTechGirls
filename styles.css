@@ -8,9 +8,10 @@
 }
 
 header{
-    margin: 1% 0 1% 0;
+    padding: 1% 0 1% 0;
     display: flex;
     justify-content: space-around;
+    background-color: #fff4e8;
 }
 
 .logo img {
@@ -46,7 +47,7 @@ nav ul {
     justify-items: center;
     justify-content: space-between;
     font-family: 'Roboto';
-    color: #FFF;
+    color: #fff4e8;
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,7 +93,7 @@ nav ul {
 .confirmacao button {
     font-family: 'Roboto';
     font-size: 20px;
-    background-color: #FFF;
+    background-color: #fff4e8;
     font-weight: lighter;
     padding: 1% 4% 1% 4%;
     margin-top: 5%;
@@ -132,7 +133,7 @@ nav ul {
 }
 
 #sobre {
-    background-color: rgb(252, 243, 233);
+    background-color: #fff4e8;
 }
 
 .trecho-sobre {
@@ -221,4 +222,63 @@ nav ul {
     height: 212px;
     object-fit: cover;
     margin-bottom: 8%;
+}
+
+#cadastro {
+    background-color: #fff4e8;
+}
+
+.titulo-cadastro h3 {
+    font-family: 'Roboto';
+    font-size: 42px;
+    font-weight: lighter;
+    padding: 5% 0 0 5%;
+}
+
+.formulario-cadastro {
+    display: flex;
+    padding: 2% 0 2% 5%;
+    align-items: center;
+}
+
+.nome, .email, .whatsapp {
+    margin-right: 5%;
+}
+
+.nome h6, .email h6, .whatsapp h6 {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 2%;
+}
+
+.nome input, .email input, .whatsapp input {
+    height: 30px;
+    width: 200px;
+    border: 1px solid #8a8989;
+    border-radius: 5px;
+}
+
+.formulario-cadastro button {
+    width: 100px;
+    height: 30px;
+    margin-top: 2%;
+    background-color: #f5952c;
+    font-family: 'Roboto';
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #fff4e8;
+    display: flex;
+    justify-content: end;
+    padding: 2% 1% 2% 0;
+}
+
+footer p {
+    font-family: 'Roboto';
+    font-size: 11px;
+    font-weight: lighter;
 }
