@@ -1,5 +1,5 @@
 <h1 align="center"> Tech Girls </h1>
-<p align="center"> Projeto desenvolvido com o objetivo de estudar HTML5 e CSS3. </p>
+<p align="center"> Projeto desenvolvido para o desafio da landing page do programa DESCODIFICADAS. </p>
 
 ## 📕 Índice
 
