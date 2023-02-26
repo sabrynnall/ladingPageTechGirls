@@ -20,6 +20,7 @@
 - 🧩 **Tecnologias**
   - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
   - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+  - [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 # Vizualizando
 
