@@ -38,6 +38,11 @@ nav ul {
 
 .item-menu a {
     color: #000;
+    transition: all 0.2s;
+}
+
+.item-menu a:hover {
+    color: #6b6b6b;
 }
 
 .chamada {
@@ -90,7 +95,7 @@ nav ul {
     width: 80%;
 }
 
-.confirmacao button {
+.confirmacao a {
     font-family: 'Roboto';
     font-size: 20px;
     background-color: #fff4e8;
@@ -99,6 +104,13 @@ nav ul {
     margin-top: 5%;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    color: inherit;
+    transition: all 0.2s;
+}
+
+.confirmacao a:hover {
+    background-color: #fcd0a2;
 }
 
 .card-dias {
@@ -242,33 +254,50 @@ nav ul {
     align-items: center;
 }
 
-.nome, .email, .whatsapp {
+.div-nome, .div-email, .div-whatsapp {
     margin-right: 5%;
 }
 
-.nome h6, .email h6, .whatsapp h6 {
+.div-nome h6, .div-email h6, .div-whatsapp h6 {
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: lighter;
     margin-bottom: 2%;
 }
 
-.nome input, .email input, .whatsapp input {
+.div-nome input, .div-email input, .div-whatsapp input {
     height: 30px;
     width: 200px;
     border: 1px solid #8a8989;
     border-radius: 5px;
+    padding: 0 2% 0 2%;
 }
 
-.formulario-cadastro button {
+.botao-messagem {
+    display: flex;
+    margin-top: 2%;
+}
+
+.botao-messagem button {
     width: 100px;
     height: 30px;
-    margin-top: 2%;
+    margin-right: 2%;
     background-color: #f5952c;
     font-family: 'Roboto';
     font-size: 16px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.botao-messagem button:hover {
+    background-color: #fcb365;
+}
+
+.botao-messagem span {
+    width: 80%;
+    font-family: 'Roboto';
 }
 
 footer {

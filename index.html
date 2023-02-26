@@ -36,7 +36,7 @@
         <section id='programacao'>
             <div class="confirmacao">
                 <h3>Conferência de três dias com palestras, atividades e workshops</h3>
-                <button>Confirmar presença</button>
+                <a href="https://www.sympla.com.br/eventos/congresso-palestra" target="_blank">Confirmar presença</a>
             </div>
             <div class="card-dias">
                 <div class="card">
@@ -61,7 +61,10 @@
                 <h3>O objetivo deste evento é reunir mulheres de tecnologia da informação de todo o nordeste.</h3>
             </div>
             <div class="imagem-sobre">
-                <iframe width="1223" height="688" src="https://www.youtube.com/embed/Qq9h2vVBZmQ" title="Mulheres na Computação | Camila Achutti | TEDxUSP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="1223" height="688" src="https://www.youtube.com/embed/Qq9h2vVBZmQ"
+                    title="Mulheres na Computação | Camila Achutti | TEDxUSP" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
                 <p>Conteúdos sobre inovação, tecnologia e soft skills.</p>
             </div>
         </section>
@@ -101,19 +104,22 @@
             </div>
             <div>
                 <form class="formulario-cadastro">
-                    <div class="nome">
+                    <div class="div-nome">
                         <h6>Nome completo:</h6>
-                        <input type="text">
+                        <input type="text" id="name" required="required">
                     </div>
-                    <div class="email">
+                    <div class="div-email">
                         <h6>Email:</h6>
-                        <input type="email">
+                        <input type="email" id="email" required="required">
                     </div>
-                    <div class="whatsapp">
+                    <div class="div-whatsapp">
                         <h6>Whatsapp:</h6>
-                        <input type="text">
+                        <input type="number" id="whatsapp" required="required">
                     </div>
-                    <button>Enviar</button>
+                    <div class="botao-messagem">
+                        <button type="submit">Enviar</button>
+                        <span class="resultado" style="display: none;"></span>
+                    </div>
                 </form>
             </div>
         </section>
@@ -122,6 +128,7 @@
     <footer>
         <p>Criado e desenvolvido por Sabrynna Lourenço ❤️</p>
     </footer>
+    <script src="cadastro.js"></script>
 </body>
 
 </html>
